@@ -1,0 +1,16 @@
+# multi-session-ref.py (Streamlit Cloud 배포용)
+# Python 3.11 권장 — Streamlit Cloud에서 버전을 고정하려면 아래를 숫자 버전으로 바꿔도 됩니다.
+
+streamlit>=1.32.2,<2
+pandas>=2.2.2,<3
+python-dotenv>=1.0.1,<2
+
+langchain-core>=0.3,<0.4
+langchain-community>=0.3,<0.4
+langchain-openai>=0.2,<0.3
+langchain-text-splitters>=0.3,<0.4
+
+openai>=1.34,<2
+pypdf>=4.2,<5
+
+supabase>=2.0,<3
